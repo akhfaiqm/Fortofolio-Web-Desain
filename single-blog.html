@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mengenal CSS Grid — Article</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="index.html">Faiq<span class="accent">.</span></a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="works.html" class="nav-link">Works</a>
+        <a href="blog.html" class="nav-link active">Blog</a>
+        <a href="#" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="single-blog">
+      <h1>Mengenal CSS Grid untuk Desain Modern</h1>
+      <p class="meta">Ditulis oleh Faiq — 18 Oktober 2025</p>
+
+      <figure>
+        <img src="assets/images/blog1.jpg" alt="Grid example">
+        <figcaption>Contoh implementasi layout grid.</figcaption>
+      </figure>
+
+      <p>CSS Grid adalah sistem layout dua dimensi... (isi artikel contoh)</p>
+
+      <h2>Contoh dasar</h2>
+      <pre><code>.container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }</code></pre>
+
+      <blockquote>Grid membuat tata letak kompleks menjadi simpel dan terstruktur.</blockquote>
+
+      <a href="blog.html" class="btn btn-primary">← Kembali ke Blog</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2025 Faiq Nur Hidayat</p>
+      <div class="socials"><a href="https://www.linkedin.com/in/akhmad-faiq-mursyidi-843177332">LinkedIn</a> <a href="https://github.com/akhfaiqm">GitHub</a></div>
+    </div>
+  </footer>
+</body>
+</html>
